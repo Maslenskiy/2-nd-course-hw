@@ -49,3 +49,18 @@ alert(num);
 let age = prompt("Сколько вам лет?");
 
 alert(age);
+
+// Задание 9.0
+let  user = {
+    name: "John",
+    age: 25,
+    isAdmin: true
+}
+ user.cityOfResidence = "New York";
+
+ user.age = 30;
+ delete user.cityOfResidence;
+
+ let info = prompt("Какую информацию хотите узнать о пользователе?");
+
+ alert(user[info]);
