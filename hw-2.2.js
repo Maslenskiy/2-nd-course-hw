@@ -8,3 +8,8 @@
 let releaseIphone;
 releaseIphone = 2007;
 alert(releaseIphone);
+
+// Задание 3
+
+let userName = "Брендан Эйх";
+alert(userName);
