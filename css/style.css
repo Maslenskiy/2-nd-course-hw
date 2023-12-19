@@ -9,6 +9,7 @@ background-image: url(../img/Rectangle\ 1.png);
 background-size: cover;
 background-repeat: no-repeat;
 height: 1024px;
+background-position: bottom;
 }
 .container{
     max-width: 1440px;
@@ -53,6 +54,8 @@ height: 1024px;
 .cart{
     background: #000915;
     min-height: 556px;
+    display: flex;
+    justify-content: center;
 }
 .cart__content{
     padding-top: 128px;
