@@ -64,3 +64,8 @@ let  user = {
  let info = prompt("Какую информацию хотите узнать о пользователе?");
 
  alert(user[info]);
+
+//  задание 10
+let userrName = prompt("Введите ваше имя:");
+
+alert(`Привет, ${userrName}!`);
