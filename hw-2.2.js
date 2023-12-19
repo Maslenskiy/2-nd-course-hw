@@ -3,3 +3,8 @@
  alert (a);
  a = 20;
  alert(a);
+
+//  ЗАДАНИЕ 2
+let releaseIphone;
+releaseIphone = 2007;
+alert(releaseIphone);
