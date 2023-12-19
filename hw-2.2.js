@@ -22,3 +22,8 @@ alert(c + b);
 alert(c - b);
 alert(c * b);
 alert(10 / 2);
+
+// Задание 5
+ let d = 2;
+ let result = d**5
+ alert(result);
