@@ -1,9 +1,10 @@
-// Задание 1
-let password = 556372;
-let userPassword = prompt('Введите пароль');
+// Задание 2
+ let c = 10;
 
-if(userPassword == password){
-    alert('Пароль введен верно')
-}else{
-    alert('Пароль введен неправильно')
-}
+ if(c > 0 && c < 10 ){
+    console.log('Верно')
+ }else{
+    console.log('Неверно')
+ }
+
+
