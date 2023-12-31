@@ -67,3 +67,23 @@ function greetUser() {
 
 // Вызов функции
 greetUser();
+
+
+// Задача 5
+
+function multiplyNumbers(num1, num2) {
+  // Проверка, являются ли оба параметра числами
+  if (typeof num1 !== 'number' || typeof num2 !== 'number' || isNaN(num1) || isNaN(num2)) {
+      return 'Одно или оба значения не являются числом';
+  }
+
+  // Если оба параметра - числа, возвращаем их произведение
+  return num1 * num2;
+}
+
+// Пример использования функции
+let result = multiplyNumbers(5, 7);
+console.log(result);  // Выведет 35
+
+result = multiplyNumbers('abc', 7);
+console.log(result);  // Выведет 'Одно или оба значения не являются числом'
