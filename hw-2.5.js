@@ -47,3 +47,23 @@ function calculateSquare(number) {
 let num1 = prompt('Введите число: ');
 let square = calculateSquare(parseInt(num1));
 console.log('Квадрат числа ' + num1 + ' равен ' + square);
+
+
+
+// Задача 4
+
+
+function greetUser() {
+  let age = prompt('Сколько вам лет?');
+
+  if (isNaN(age) || age < 0) {
+      console.log('Вы ввели неправильное значение');
+  } else if (age >= 0 && age <= 12) {
+      console.log('Привет, друг!');
+  } else {
+      console.log('Добро пожаловать!');
+  }
+}
+
+// Вызов функции
+greetUser();
