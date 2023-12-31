@@ -87,3 +87,25 @@ console.log(result);  // Выведет 35
 
 result = multiplyNumbers('abc', 7);
 console.log(result);  // Выведет 'Одно или оба значения не являются числом'
+
+// Задание 6
+
+function cubeAndReturnString() {
+  let userInput = prompt('Введите число:');
+  
+  // Проверка, является ли введенное значение числом
+  if (isNaN(userInput)) {
+      return 'Переданный параметр не является числом';
+  }
+
+  let number = parseFloat(userInput);
+  let result = Math.pow(number, 3);
+
+  return number + ' в кубе равняется ' + result;
+}
+
+// Проверка для чисел от 0 до 10
+for (let i = 0; i <= 10; i++) {
+  let output = cubeAndReturnString(i);
+  console.log(output);
+}
