@@ -33,3 +33,10 @@ alert(num1 - num2);
 alert(num1 * num2);
 alert(num1 / num2);
 
+// Задание 5
+// Возведите 2 в 5-ю степень. Результат запишите в переменную result и выведите на экран с помощью метода alert().
+
+const num = 2;
+const result = num ** 5;
+alert(result);
+
