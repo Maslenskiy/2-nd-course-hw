@@ -67,3 +67,11 @@ alert(num);
 
 let age = Number(prompt('Сколько вам лет?'));
 alert(age)
+
+// Задание 9.0
+
+const user = {
+    name: 'Петр',
+    age:35,
+    isAdmin:false
+}
