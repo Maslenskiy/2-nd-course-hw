@@ -75,3 +75,6 @@ const user = {
     age:35,
     isAdmin:false
 }
+
+// Задание 9.1
+user['city of residence'] = 'Rostov-Na-Dony';
