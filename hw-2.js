@@ -88,3 +88,8 @@ delete user['city of residence'];
 // Задание 9.4
 const info = prompt('Какую информацию хотите узнать о пользователе?')
 alert(user.info)
+
+// Задание 10
+
+const userName = prompt('Как выс зовут?');
+alert(`Привет ${userName}`);
