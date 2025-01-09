@@ -84,3 +84,7 @@ user.age = 55;
 
 // Задание 9.3
 delete user['city of residence'];
+
+// Задание 9.4
+const info = prompt('Какую информацию хотите узнать о пользователе?')
+alert(user.info)
