@@ -40,3 +40,11 @@ const num = 2;
 const result = num ** 5;
 alert(result);
 
+// Задание 6
+// Даны переменные: d = 9 и b = 2.Найдите остаток от деления a на b
+// и выведите результат на экран с помощью метода alert().
+
+const d = 9;
+const b = 2;
+const result2 = d % b;
+alert(result2);
