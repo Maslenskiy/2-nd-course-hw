@@ -81,3 +81,6 @@ user['city of residence'] = 'Rostov-Na-Dony';
 
 // Задание 9.2
 user.age = 55;
+
+// Задание 9.3
+delete user['city of residence'];
