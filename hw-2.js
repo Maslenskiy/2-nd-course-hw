@@ -21,3 +21,15 @@ const nameAuthorJs = 'Брендан Эйх';
 alert(nameAuthorJs);
 
 
+// Задание 4
+// Создайте две переменные: 10 и 2. С помощью метода alert()
+// выведите на экран их сумму, разность, произведение и частное (результат деления)
+
+const num1 = 10;
+const num2 = 2;
+
+alert(num1 + num2);
+alert(num1 - num2);
+alert(num1 * num2);
+alert(num1 / num2);
+
