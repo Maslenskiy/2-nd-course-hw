@@ -14,3 +14,10 @@ alert(a);
 const yearIPhone = 2007;
 alert(yearIPhone);
 
+// Задание 3
+// Создайте переменную и присвойте ей значение имени создателя языка JavaScript. Выведите значение переменной на экран.
+
+const nameAuthorJs = 'Брендан Эйх';
+alert(nameAuthorJs);
+
+
