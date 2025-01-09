@@ -78,3 +78,6 @@ const user = {
 
 // Задание 9.1
 user['city of residence'] = 'Rostov-Na-Dony';
+
+// Задание 9.2
+user.age = 55;
