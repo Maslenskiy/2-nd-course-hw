@@ -15,8 +15,20 @@
 //     console.log(i);
 // }
 
-// Задание 3
+// // Задание 3
 
-for(let i = 7; i <= 22; i++){
-console.log(i)
+// for(let i = 7; i <= 22; i++){
+// console.log(i)
+// }
+
+// Задание 4
+
+const obj = {
+    "Коля" : '200',
+    "Вася" : '300',
+    "Петя" : '400',
+}
+
+for(let user in obj){
+    console.log(`${user} — зарплата ${obj[user]} долларов`)
 }
