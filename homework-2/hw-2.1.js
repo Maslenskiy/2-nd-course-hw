@@ -92,16 +92,23 @@
 
 // Задание 6:
 
-const number = Number(prompt('Введите любое число'));
+// const number = Number(prompt('Введите любое число'));
 
 
-if(isNaN(number)){
-    console.log('вы ввели не число!');
-}else if(number % 2 === 0){
-    console.log('число четное');
-}else{
-    console.log('число не четное');
+// if(isNaN(number)){
+//     console.log('вы ввели не число!');
+// }else if(number % 2 === 0){
+//     console.log('число четное');
+// }else{
+//     console.log('число не четное');
+// }
+
+
+// Задание 7
+
+const clienOS = 1
+if(clienOS === 0){
+    console.log('Установите версию приложения для iOS по ссылке')
+}else if(clienOS === 1){
+    console.log('Установите версию приложения для Android по ссылке')
 }
-
-
-
