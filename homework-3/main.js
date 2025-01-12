@@ -2,10 +2,15 @@
 
 // Задание 1
 
-let i = 1;
+// let i = 1;
 
-while(i <= 2){
-    console.log('Привет');
-    i++;
+// while(i <= 2){
+//     console.log('Привет');
+//     i++;
+// }
+
+// Задание 2
+
+for(let i = 1; i <= 5; i++){
+    console.log(i);
 }
-
