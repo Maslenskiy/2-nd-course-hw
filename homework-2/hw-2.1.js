@@ -104,11 +104,26 @@
 // }
 
 
-// Задание 7
+// // Задание 7
 
-const clienOS = 1
-if(clienOS === 0){
-    console.log('Установите версию приложения для iOS по ссылке')
-}else if(clienOS === 1){
-    console.log('Установите версию приложения для Android по ссылке')
+// const clienOS = 1
+// if(clienOS === 0){
+//     console.log('Установите версию приложения для iOS по ссылке')
+// }else if(clienOS === 1){
+//     console.log('Установите версию приложения для Android по ссылке')
+// }
+
+// // Задание 8
+
+const userTelephoneOs = Number(prompt('Введите 0 - если у вас IOS, Введите 1 - если Andrond'));
+const clientDeviceYear = Number(prompt('Введите год производства вашего телефона'));
+
+if(userTelephoneOs === 0 && clientDeviceYear >= 2015){
+    alert('обычное предложение об установке приложения.')
+}else if(userTelephoneOs === 1 && clientDeviceYear >= 2015){
+    alert('обычное предложение об установке приложения.')
+}else if(userTelephoneOs === 0 && clientDeviceYear < 2015){
+    alert('установите облегченную версию приложения для iOS по ссылке')
+}else if(userTelephoneOs === 1 && clientDeviceYear < 2015){
+    alert('установите облегченную версию приложения для Android по ссылке')
 }
