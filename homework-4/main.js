@@ -39,16 +39,27 @@
 
 
 // Задание 4
-const userAgePrompt = () => {
-const userAge = +prompt( 'Сколько вам лет' );
+// const userAgePrompt = () => {
+// const userAge = +prompt( 'Сколько вам лет' );
 
-if(userAge < 0){
-    alert( "Вы ввели неправильное значение" );
-}else if( userAge >= 0 && userAge <= 12 ) {
-    alert( "Привет Друг!" )
-}else if( userAge >= 13 ){
-    alert( "Добро пожаловать" )
-}
-}
+// if(userAge < 0){
+//     alert( "Вы ввели неправильное значение" );
+// }else if( userAge >= 0 && userAge <= 12 ) {
+//     alert( "Привет Друг!" )
+// }else if( userAge >= 13 ){
+//     alert( "Добро пожаловать" )
+// }
+// }
 
-userAgePrompt()
+// userAgePrompt()
+
+// Задание 5
+
+const correctNumbers = ( num1, num2 ) => {
+    if( isNaN( num1 ) || isNaN(num2)){
+        return console.log( 'Одно или оба значения не являются числом' );
+    }else{
+        return console.log(num1 * num2)
+    }
+}
+correctNumbers('fddasagf', "выа")
