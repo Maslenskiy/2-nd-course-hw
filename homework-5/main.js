@@ -67,4 +67,21 @@ if(numbers4.includes(userPrompt)){
 
 let str = 'abcdef';
 str = str.split('').sort().reverse().join('');
-console.log(str)
+console.log(str);
+
+
+//Задание 9
+
+const arrNum = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+const newS = [];
+
+for(let item of arrNum){
+    for(let j of item){
+        newS.push(j)
+    }
+}
+console.log(newS)
