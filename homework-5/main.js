@@ -85,3 +85,12 @@ for(let item of arrNum){
     }
 }
 console.log(newS)
+
+
+//Задание 10
+
+const numbersSum = [2,4,6,7,8,];
+for(let i = 0; i < numbersSum.length-1; i++){
+    const sum = numbersSum[i] + numbersSum[i + 1];
+    console.log(sum)
+}
