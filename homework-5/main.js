@@ -36,3 +36,10 @@ for(let i = 0; i < 3; i++){
     arr.push(row)
 }
 console.log(arr)
+
+
+// Задание 5
+
+const arrNumber = [1, 1, 1];
+arrNumber.push(2,2,2);
+console.log(arrNumber)
