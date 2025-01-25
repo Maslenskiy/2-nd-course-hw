@@ -61,3 +61,10 @@ if(numbers4.includes(userPrompt)){
 }else{
     alert(' не угадал')
 }
+
+
+//Задание 8
+
+let str = 'abcdef';
+str = str.split('').sort().reverse().join('');
+console.log(str)
