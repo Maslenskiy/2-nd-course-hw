@@ -21,4 +21,18 @@ console.log(`Индекс значения 4 в этом массиве раве
 const numbers3 = [1, 3, 5, 10, 20];
 
 const joinNum = numbers3.join(' ');
-console.log(joinNum)
+console.log(joinNum);
+
+
+// Задание 4
+
+let arr = [];
+
+for(let i = 0; i < 3; i++){
+    const row = [];
+    for(let j = 0; j < 3; j++){
+        row.push(1);
+    }
+    arr.push(row)
+}
+console.log(arr)
