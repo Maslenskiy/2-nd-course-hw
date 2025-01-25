@@ -43,3 +43,10 @@ console.log(arr)
 const arrNumber = [1, 1, 1];
 arrNumber.push(2,2,2);
 console.log(arrNumber)
+
+
+// Задание 6
+
+const arrNumbers = [9, 8, 7, 'a', 6, 5];
+arrNumbers.sort().pop()
+console.log(arrNumbers)
