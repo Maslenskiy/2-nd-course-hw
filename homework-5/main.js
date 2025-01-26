@@ -123,3 +123,11 @@ function returnArrayNegativeValues(arrNumber){
 
 const resalt = returnArrayNegativeValues([5,6,7,-10,-4,-16]);
 console.log(resalt)
+
+// Задание 14
+
+const mathRandomArr =  Array.from({ length: 10 }, () => Math.floor(Math.random() * 11));
+const evenArray = mathRandomArr.filter(num => num % 2 === 0);
+
+console.log("Исходный массив:", mathRandomArr);
+console.log("Массив с четными значениями:", evenArray)
