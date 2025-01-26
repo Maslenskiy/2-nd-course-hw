@@ -131,3 +131,12 @@ const evenArray = mathRandomArr.filter(num => num % 2 === 0);
 
 console.log("Исходный массив:", mathRandomArr);
 console.log("Массив с четными значениями:", evenArray)
+
+// Задание 15
+
+const mathRandomArr2 = Array.from({ length: 6 }, () => Math.floor(Math.random() * 10) + 1);
+
+const newArrReduce = mathRandomArr2.reduce((accumulator, num) => (accumulator + num), 0) / mathRandomArr2.length;
+
+console.log("Исходный массив:", mathRandomArr2);
+console.log("Среднее значение:", newArrReduce);
