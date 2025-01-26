@@ -94,3 +94,12 @@ for(let i = 0; i < numbersSum.length-1; i++){
     const sum = numbersSum[i] + numbersSum[i + 1];
     console.log(sum)
 }
+
+//Задание 11
+
+function returnsAnArrayOfSquares(arr){
+ const arrResult = arr.map(el => el ** 2);
+    return arrResult
+}
+const result1 = returnsAnArrayOfSquares([2,3,4,5])
+console.log(result1)
