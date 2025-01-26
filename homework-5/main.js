@@ -103,3 +103,13 @@ function returnsAnArrayOfSquares(arr){
 }
 const result1 = returnsAnArrayOfSquares([2,3,4,5])
 console.log(result1)
+
+// Задание 12
+
+function arrayOfWordLengths(arrStr){
+    const newArrLenghtWord = arrStr.map(el => el.length)
+    return newArrLenghtWord
+}
+
+const res = arrayOfWordLengths(['Привет', 'Это'])
+console.log(res)
