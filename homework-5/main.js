@@ -113,3 +113,13 @@ function arrayOfWordLengths(arrStr){
 
 const res = arrayOfWordLengths(['Привет', 'Это'])
 console.log(res)
+
+// Задание 13
+
+function returnArrayNegativeValues(arrNumber){
+    const negativeValues = arrNumber.filter(num => num < 0);
+    return negativeValues;
+}
+
+const resalt = returnArrayNegativeValues([5,6,7,-10,-4,-16]);
+console.log(resalt)
